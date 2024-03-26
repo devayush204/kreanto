@@ -66,7 +66,7 @@ const SucessStory = () => {
                 <Image src={"/profile.jpg"} width={40}  height={40} alt='img' className='rounded-full border border-blue-800 w-[40px] h-[40px] '/>
               <p className='text-[17px] font-semibold text-primary-500'>Ayush Bhatt</p>
             </div>
-            <p className='text-[15px] mt-5 text-white/75 '>Highly recommend for all design needs! From initial consultation to final delivery, they demonstrated professionalism and creativity every step of the way. We've seen a significant improvement in our brand's visibility and engagement.</p>
+            <p className='text-[15px] mt-5 text-white/75 '>Highly recommend for all design needs! From initial consultation to final delivery, they demonstrated professionalism and creativity every step of the way. We&apos;ve seen a significant improvement in our brand&apos;s visibility and engagement.</p>
           </div>
           <div className='bg-gray-900 px-7 py-5 hover:scale-95 transition max-w-full rounded-3xl'>
             <div className='flex gap-3 items-center'>
