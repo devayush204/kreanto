@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const SucessStory = () => {
@@ -14,21 +15,21 @@ const SucessStory = () => {
         <div class="grid gap-4">
           <div className='bg-gray-900 px-7 py-5 hover:scale-95 transition max-w-full rounded-3xl'>
             <div className='flex gap-3 items-center'>
-              <img className='rounded-full w-[40px] border border-blue-800 h-[40px]' src="/profile.jpg" alt="" />
+              <Image src={"/profile.jpg"} width={40}  height={40} alt='img' className='rounded-full border border-blue-800 w-[40px] h-[40px] '/>
               <p className='text-[17px] font-semibold text-primary-500'>Ayush Bhatt</p>
             </div>
             <p className='text-[15px] mt-5 text-white/75 '>Exceptional creativity and attention to detail! Our website redesign exceeded our expectations, and the UI/UX enhancements have significantly improved user engagement. Highly recommended!</p>
           </div>
           <div className='bg-gray-900 px-7 py-5 hover:scale-95 transition max-w-full rounded-3xl'>
             <div className='flex gap-3 items-center'>
-              <img className='rounded-full w-[40px] border border-blue-800 h-[40px]' src="/profile.jpg" alt="" />
+                <Image src={"/profile.jpg"} width={40}  height={40} alt='img' className='rounded-full border border-blue-800 w-[40px] h-[40px] '/>
               <p className='text-[17px] font-semibold text-primary-500'>Ayush Bhatt</p>
             </div>
             <p className='text-[15px] mt-5 text-white/75 '>Professional and innovative! The team transformed our outdated website into a modern, user-friendly platform that reflects our brand identity. The positive feedback from our customers speaks volumes</p>
           </div>
           <div className='bg-gray-900 px-7 py-5 hover:scale-95 transition max-w-full rounded-3xl'>
             <div className='flex gap-3 items-center'>
-              <img className='rounded-full w-[40px] border border-blue-800 h-[40px]' src="/profile.jpg" alt="" />
+                <Image src={"/profile.jpg"} width={40}  height={40} alt='img' className='rounded-full border border-blue-800 w-[40px] h-[40px] '/>
               <p className='text-[17px] font-semibold text-primary-500'>Ayush Bhatt</p>
             </div>
             <p className='text-[15px] mt-5 text-white/75 '>Exceptional creativity and attention to detail! Our website redesign exceeded our expectations, and the UI/UX enhancements have significantly improved user engagement. Highly recommended!</p>
@@ -38,21 +39,21 @@ const SucessStory = () => {
         <div class="grid gap-4">
           <div className='bg-gray-900 px-7 py-5 hover:scale-95 transition max-w-full rounded-3xl'>
             <div className='flex gap-3 items-center'>
-              <img className='rounded-full w-[40px] border border-blue-800 h-[40px]' src="/profile.jpg" alt="" />
+                <Image src={"/profile.jpg"} width={40}  height={40} alt='img' className='rounded-full border border-blue-800 w-[40px] h-[40px] '/>
               <p className='text-[17px] font-semibold text-primary-500'>Ayush Bhatt</p>
             </div>
             <p className='text-[15px] mt-5 text-white/75 '>Innovative solutions that drive results!</p>
           </div>
           <div className='bg-gray-900 px-7 py-5 hover:scale-95 transition max-w-full rounded-3xl'>
             <div className='flex gap-3 items-center'>
-              <img className='rounded-full w-[40px] border border-blue-800 h-[40px]' src="/profile.jpg" alt="" />
+                <Image src={"/profile.jpg"} width={40}  height={40} alt='img' className='rounded-full border border-blue-800 w-[40px] h-[40px] '/>
               <p className='text-[17px] font-semibold text-primary-500'>Ayush Bhatt</p>
             </div>
             <p className='text-[15px] mt-5 text-white/75 '>Exceptional creativity and attention to detail! Our website redesign exceeded our expectations, and the UI/UX enhancements have significantly improved user engagement. Highly recommended!</p>
           </div>
           <div className='bg-gray-900 px-7 py-5 hover:scale-95 transition max-w-full rounded-3xl'>
             <div className='flex gap-3 items-center'>
-              <img className='rounded-full w-[40px] border border-blue-800 h-[40px]' src="/profile.jpg" alt="" />
+                <Image src={"/profile.jpg"} width={40}  height={40} alt='img' className='rounded-full border border-blue-800 w-[40px] h-[40px] '/>
               <p className='text-[17px] font-semibold text-primary-500'>Ayush Bhatt</p>
             </div>
             <p className='text-[15px] mt-5 text-white/75 '>Exceptional creativity and attention to detail! Our website redesign exceeded our expectations.</p>
@@ -62,21 +63,21 @@ const SucessStory = () => {
         <div class="grid gap-4">
           <div className='bg-gray-900 px-7 py-5 hover:scale-95 transition max-w-full rounded-3xl'>
             <div className='flex gap-3 items-center'>
-              <img className='rounded-full w-[40px] border border-blue-800 h-[40px]' src="/profile.jpg" alt="" />
+                <Image src={"/profile.jpg"} width={40}  height={40} alt='img' className='rounded-full border border-blue-800 w-[40px] h-[40px] '/>
               <p className='text-[17px] font-semibold text-primary-500'>Ayush Bhatt</p>
             </div>
             <p className='text-[15px] mt-5 text-white/75 '>Highly recommend for all design needs! From initial consultation to final delivery, they demonstrated professionalism and creativity every step of the way. We've seen a significant improvement in our brand's visibility and engagement.</p>
           </div>
           <div className='bg-gray-900 px-7 py-5 hover:scale-95 transition max-w-full rounded-3xl'>
             <div className='flex gap-3 items-center'>
-              <img className='rounded-full w-[40px] border border-blue-800 h-[40px]' src="/profile.jpg" alt="" />
+                <Image src={"/profile.jpg"} width={40}  height={40} alt='img' className='rounded-full border border-blue-800 w-[40px] h-[40px] '/>
               <p className='text-[17px] font-semibold text-primary-500'>Ayush Bhatt</p>
             </div>
             <p className='text-[15px] mt-5 text-white/75 '>Their commitment to excellence is truly commendable.</p>
           </div>
           <div className='bg-gray-900 px-7 py-5 hover:scale-95 transition max-w-full rounded-3xl'>
             <div className='flex gap-3 items-center'>
-              <img className='rounded-full w-[40px] border border-blue-800 h-[40px]' src="/profile.jpg" alt="" />
+                <Image src={"/profile.jpg"} width={40}  height={40} alt='img' className='rounded-full border border-blue-800 w-[40px] h-[40px] '/>
               <p className='text-[17px] font-semibold text-primary-500'>Ayush Bhatt</p>
             </div>
             <p className='text-[15px] mt-5 text-white/75 '>Exceptional creativity and attention to detail! Our website redesign exceeded our expectations.</p>
@@ -86,24 +87,24 @@ const SucessStory = () => {
         <div class="grid gap-4">
           <div className='bg-gray-900 px-7 py-5 hover:scale-95 transition max-w-full rounded-3xl'>
             <div className='flex gap-3 items-center'>
-              <img className='rounded-full w-[40px] border border-blue-800 h-[40px]' src="/profile.jpg" alt="" />
+                <Image src={"/profile.jpg"} width={40}  height={40} alt='img' className='rounded-full border border-blue-800 w-[40px] h-[40px] '/>
               <p className='text-[17px] font-semibold text-primary-500'>Ayush Bhatt</p>
             </div>
             <p className='text-[15px] mt-5 text-white/75 '>Exceptional creativity and attention to detail! Our website redesign exceeded our expectations, and the UI/UX enhancements have significantly improved user engagement. Highly recommended!</p>
           </div>
           <div className='bg-gray-900 px-7 py-5 hover:scale-95 transition max-w-full rounded-3xl'>
             <div className='flex gap-3 items-center'>
-              <img className='rounded-full w-[40px] border border-blue-800 h-[40px]' src="/profile.jpg" alt="" />
+                <Image src={"/profile.jpg"} width={40}  height={40} alt='img' className='rounded-full border border-blue-800 w-[40px] h-[40px] '/>
               <p className='text-[17px] font-semibold text-primary-500'>Ayush Bhatt</p>
             </div>
             <p className='text-[15px] mt-5 text-white/75 '>Professional and innovative! The team transformed our outdated website into a modern, user-friendly platform that reflects our brand identity.</p>
           </div>
           <div className='bg-gray-900 px-7 py-5 hover:scale-95 transition max-w-full rounded-3xl'>
             <div className='flex gap-3 items-center'>
-              <img className='rounded-full w-[40px] border border-blue-800 h-[40px]' src="/profile.jpg" alt="" />
+                <Image src={"/profile.jpg"} width={40}  height={40} alt='img' className='rounded-full border border-blue-800 w-[40px] h-[40px] '/>
               <p className='text-[17px] font-semibold text-primary-500'>Ayush Bhatt</p>
             </div>
-            <p className='text-[15px] mt-5 text-white/75 '>Impressive creativity and versatility! Whether it's graphic design, web development, or branding, they consistently deliver exceptional results. Couldn't be happier with their services.</p>
+            <p className='text-[15px] mt-5 text-white/75 '>Impressive creativity and versatility! Whether it&apos;s graphic design, web development, or branding, they consistently deliver exceptional results. Couldn&apos;t be happier with their services.</p>
           </div>
         </div>
       </div>

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Footer = () => {
@@ -6,7 +7,7 @@ const Footer = () => {
             <div  className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
                 <div  className="sm:flex sm:items-center sm:justify-between ">
                     <a href="/"  className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                        <img src="/creanto.png"  className="h-16" alt="Flowbite Logo" />
+                        <Image src={'/creanto.png'} width={80} height={100} alt='img' />
                     </a>
                     <ul  className="flex flex-wrap gap-5 items-center  text-[18px] font-semibold text-gray-500 sm:mb-0 dark:text-gray-400">
                         <li>
@@ -19,7 +20,7 @@ const Footer = () => {
                             <a href="#"  className="  me-4 md:me-6">Testimonials</a>
                         </li>
                         <li>
-                            <a href="#"  className="  me-4 md:me-6">FAQ's</a>
+                            <a href="#"  className="  me-4 md:me-6">FAQ&apos;s</a>
                         </li>
                         <li>
                             <a href="#"  className="  me-4 md:me-6">Conact Us</a>

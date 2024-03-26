@@ -8,7 +8,7 @@ const Header = () => {
     <div className="flex h-16 items-center justify-between">
       <div className="md:flex md:items-center md:gap-12 overflow-hidden">
         <a className="block " href="#">
-          <Image className='w-[120px] h-[80px] scale-150' src={"/creanto.png"} width={100} height={10} />
+          <Image className='w-[120px] h-[80px] scale-150' src={"/creanto.png"} width={100} height={10} alt='img' />
         </a>
       </div>
 

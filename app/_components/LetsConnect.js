@@ -6,8 +6,8 @@ const LetsConnect = () => {
     return (
         <section className='mt-40 '>
             <div className='w-[50%] pb-8 '>
-                <h1 class="mb-4 text-3xl w-[700px] font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-primary-500">Let's Connect</span> And Ignite Success</h1>
-                <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Feel free to reach out to us to discuss your project, whether it's about creative branding, UI/UX design, or app and web development. We're committed to delivering exceptional results that elevate your brand and drive growth.</p>
+                <h1 class="mb-4 text-3xl w-[700px] font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-primary-500">Let&apos;s Connect</span> And Ignite Success</h1>
+                <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Feel free to reach out to us to discuss your project, whether it&apos;s about creative branding, UI/UX design, or app and web development. We&apos;re committed to delivering exceptional results that elevate your brand and drive growth.</p>
             </div>
 
             <div className='flex flex-col gap-4 w-full'>
@@ -41,7 +41,7 @@ const LetsConnect = () => {
                             <h1 className="text-2xl font-bold sm:text-[35px] text-white/50">Connect With Ease</h1>
 
                             <p className="mt-4 text-white/50">
-                                Your inquiries, ideas, and collaboration opportunities are just a click away. Let's start the conversation.
+                                Your inquiries, ideas, and collaboration opportunities are just a click away. Let&apos;s start the conversation.
                             </p>
                         </div>
 
@@ -154,7 +154,7 @@ const LetsConnect = () => {
                     </div>
 
                     <div className='mx-auto max-w-screen-xl  w-[60%] rounded-3xl bg-[#3f59ff]'>
-                        <Image className='' src={"/faq.png"} width={800} height={600} />
+                        <Image className='' alt='img' src={"/faq.png"} width={800} height={600} />
                     </div>
                     {/* <div className='  w-[60%] rounded-3xl overflow-hidden'>
                         <Image className='w-full h-[700px] ' src={"/faq.jpg"} width={430} height={100} />

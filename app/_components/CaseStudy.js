@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const CaseStudy = () => {
@@ -14,13 +15,14 @@ const CaseStudy = () => {
                 </div>
                 <div className='flex justify-between gap-10 mt-10'>
                     <div className='overflow-hidden flex-1'>
-                        <img className='hover:scale-105 transition' src="/case1.png" alt="" />
+                        <Image src={"/case1.png"} width={600} height={100} className='hover:scale-105 transition' alt='img' />
+                    </div>
+
+                    <div className='overflow-hidden flex-1'>
+                    <Image src={"/case2.png"} width={600} height={100} className='hover:scale-105 transition' alt='img' />
                     </div>
                     <div className='overflow-hidden flex-1'>
-                        <img className='hover:scale-105 transition' src="/case2.png" alt="" />
-                    </div>
-                    <div className='overflow-hidden flex-1'>
-                        <img className='hover:scale-105 transition' src="/case1.png" alt="" />
+                    <Image src={"/case1.png"} width={600} height={100} className='hover:scale-105 transition' alt='img' />
                     </div>
                     
                     

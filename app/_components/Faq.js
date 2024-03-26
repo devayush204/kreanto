@@ -38,14 +38,14 @@ const Faq = () => {
                     </summary>
 
                     <p className="mt-4 leading-relaxed text-gray-700 dark:text-gray-200">
-                    Provide an overview of the creative services your agency specializes in, including brand identity design, UI/UX design, web development, mobile app development, and any other related services. Highlight your agency's expertise in creating cohesive and impactful brand experiences across various platforms.
+                    Provide an overview of the creative services your agency specializes in, including brand identity design, UI/UX design, web development, mobile app development, and any other related services. Highlight your agency&apos;s expertise in creating cohesive and impactful brand experiences across various platforms.
                     </p>
                 </details>
                 <details
                     className="group bg-gray-900 px-7 py-4 rounded-3xl dark:bg-gray-900 [&_summary::-webkit-details-marker]:hidden">
                     <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                         <h2 className="text-lg font-medium text-gray-900 dark:text-white">
-                        What is your agency's approach to project management?
+                        What is your agency&apos;s approach to project management?
                         </h2>
 
                         <span
@@ -96,7 +96,7 @@ const Faq = () => {
                     </summary>
 
                     <p className="mt-4 leading-relaxed text-gray-700 dark:text-gray-200">
-                    Showcase your agency's portfolio by sharing examples of previous work or success stories. Highlight key projects that demonstrate your expertise, creativity, and ability to deliver results for clients.
+                    Showcase your agency&apos;s portfolio by sharing examples of previous work or success stories. Highlight key projects that demonstrate your expertise, creativity, and ability to deliver results for clients.
                     </p>
                 </details>
                 <details
@@ -124,7 +124,7 @@ const Faq = () => {
                     </summary>
 
                     <p className="mt-4 leading-relaxed text-gray-700 dark:text-gray-200">
-                    Differentiate your agency by discussing what makes it unique or special. This could include factors such as your team's expertise, innovative approach, commitment to client satisfaction, competitive pricing, or any awards or recognitions your agency has received.
+                    Differentiate your agency by discussing what makes it unique or special. This could include factors such as your team&apos;s expertise, innovative approach, commitment to client satisfaction, competitive pricing, or any awards or recognitions your agency has received.
                     </p>
                 </details>
                 <details
@@ -153,7 +153,7 @@ const Faq = () => {
                     </summary>
 
                     <p className="mt-4 leading-relaxed text-gray-700 dark:text-gray-200">
-                    Explain your agency's pricing structure and how you calculate costs for different services. Discuss any factors that may influence pricing, such as project complexity, scope, timeline, or additional services. Be transparent about your pricing to help potential clients understand the value they'll receive.
+                    Explain your agency&apos;s pricing structure and how you calculate costs for different services. Discuss any factors that may influence pricing, such as project complexity, scope, timeline, or additional services. Be transparent about your pricing to help potential clients understand the value they&apos;ll receive.
                     </p>
                 </details>
 

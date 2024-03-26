@@ -21,7 +21,7 @@ const Progress = () => {
                 <div className='text-center'>
                     <h1 class="mb-4 text-3xl w-[700px] font-extrabold text-white md:text-5xl lg:text-6xl"> Empowering <br /><span class="text-primary-500">Success </span> in Numbers </h1>
                 </div>
-                <p class="text-lg font-normal text-gray-500 lg:text-xl text-center w-[700px]">We redefine collaboration, innovation, and success. From our unwavering commitment to excellence to our dynamic approach that adapts to your unique needs, discover why working with us is not just a choice, it's a strategic investment in your unparalleled success</p>
+                <p class="text-lg font-normal text-gray-500 lg:text-xl text-center w-[700px]">We redefine collaboration, innovation, and success. From our unwavering commitment to excellence to our dynamic approach that adapts to your unique needs, discover why working with us is not just a choice, it&apos;s a strategic investment in your unparalleled success</p>
                 <button className='px-10 py-4 mt-7 bg-primary-500 text-white font-semibold rounded-lg'>Get in Touch</button>
             </div>
 

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const OurServices = () => {
@@ -12,8 +13,8 @@ const OurServices = () => {
             </div>
 
             <div className='flex gap-5 mt-10'>
-                <div class="max-w-full flex-1  border-gray-200 rounded-3xl shadow bg-gray-900">
-                        <img class="rounded-3xl " src="/1.png" alt="" />
+                <div class="max-w-full flex-1 overflow-hidden border-gray-200 rounded-3xl shadow bg-gray-900">
+                <Image src={"/1.png"} alt='img' width={600} height={100} class="rounded-3xl " />
                     
                     <div class="p-8">
                             <h5 class="mb-2 text-[27px] text-center font-extrabold tracking-tight text-primary-400">Strategic Brand Analysis</h5>
@@ -23,7 +24,7 @@ const OurServices = () => {
                 </div>
                 <div class="max-w-full flex-1 border-gray-200 rounded-3xl shadow bg-gray-900">
                    
-                        <img class="rounded-3xl" src="/2.png" alt="" />
+                <Image src={"/2.png"} alt='img' width={600} height={100} class="rounded-3xl " />
                     
                     <div class="p-8">
                         
@@ -35,7 +36,7 @@ const OurServices = () => {
                 </div>
                 <div class="max-w-full flex-1  border-gray-200 rounded-3xl shadow bg-gray-900">
                     
-                        <img class="rounded-3xl h-[45%] w-full" src="/3.png" alt="" />
+                <Image src={"/3.png"} alt='img' width={500} height={100} class="rounded-3xl h-[250px] " />
                     
                     <div class="p-8">
                         

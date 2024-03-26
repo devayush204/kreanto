@@ -24,17 +24,17 @@ const OurApproach = () => {
 
                     <h5 class="mb-10 text-[50px] font-bold leading-[50px] text-primary-500">Empowering Your Growth Journey with Strategic Solutions</h5>
 
-                    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">At Kreanto, we specialize in advancing brands through creative ingenuity, informed design strategies, and a deep appreciation for our clients' distinct identities. Our comprehensive approach to design is crafted to inspire innovation and foster enduring brand growth.</p>
+                    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">At Kreanto, we specialize in advancing brands through creative ingenuity, informed design strategies, and a deep appreciation for our clientss&apos;s distinct identities. Our comprehensive approach to design is crafted to inspire innovation and foster enduring brand growth.</p>
 
                 </div>
-                <div className='w-[50%]'>
-                    <img class="rounded-3xl h-full w-full" src="/img3.png" alt="" />
+                <div className='w-[50%] overflow-hidden'>
+                    <Image src={"/img3.png"} alt='img' width={700} height={100} class="rounded-3xl h-full" />
                 </div>
             </div>
             <div className='flex gap-7 mt-7'>
                 <div class="flex-1 bg-[#ffc295] rounded-3xl  ">
                     
-                        <img class="rounded-3xl h-[450px] w-full" src="/img1.png" alt="" />
+                <Image src={"/img1.png"} alt='img' width={700} height={100} class="rounded-3xl h-[350px] " />
                 
                     <div class="px-16 py-10">
 
@@ -47,12 +47,12 @@ const OurApproach = () => {
 
 
                 <div class="flex-1 w-full bg-[#ecd076] rounded-3xl ">
-                    <img class="rounded-3xl h-[450px] w-full " src="/img2.png" alt="" />
+                <Image src={"/img2.png"} alt='img' width={700} height={100} class="rounded-3xl h-[350px] " />
                     <div class="px-16 py-10">
 
                         <h5 class="mb-2 text-[35px] font-extrabold tracking-tight text-[#564801]">Powering Growth Together</h5>
 
-                        <p class="mb-3 font-normal text-black">At Kreanto, we believe in the power of collaboration. We don't just work for our clients; we work with them, forming strong partnerships built on trust, transparency, and shared objectives.</p>
+                        <p class="mb-3 font-normal text-black">At Kreanto, we believe in the power of collaboration. We don&apos;t just work for our clients we work with them, forming strong partnerships built on trust, transparency, and shared objectives.</p>
 
                     </div>
                 </div>
