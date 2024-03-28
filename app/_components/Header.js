@@ -3,17 +3,17 @@ import React from 'react'
 
 const Header = () => {
   return (
-<header className=" py-8">
+<header className=" pt-4 md:pt-6 sm:pt-8">
   <div className="mx-auto max-w-screen-xl ">
     <div className="flex h-16 items-center justify-between">
       <div className="md:flex md:items-center md:gap-12 overflow-hidden">
         <a className="block " href="#">
-          <Image className='w-[120px] h-[80px] scale-150' src={"/creanto.png"} width={100} height={10} alt='img' />
+          <Image className='w-[80px] md:w-[120px] md:h-[80px] sm:w-[150px] sm:h-[130px]  h-[60px] scale-150' src={"/creanto.png"} width={100} height={10} alt='img' />
         </a>
       </div>
 
-      <div className="hidden md:block">
-        <nav aria-label="Global">
+      <div className="hidden lg:block">
+        <nav >
           <ul className="flex items-center gap-10 text-[16px] font-semibold ">
             <li>
               <a className="text-white transition hover:text-gray-500/75" href="#"> About Us</a>
@@ -37,19 +37,18 @@ const Header = () => {
       </div>
 
       <div className="flex items-center gap-4">
-        <div className="sm:flex sm:gap-4">
+        <div className="hidden md:flex sm:flex sm:gap-4 ">
           <a
-            className="rounded-md bg-transparent border border-primary-600 px-5 py-2.5 text-sm font-medium text-white shadow"
-            href="#"
-          >
+            className="rounded-md md:rounded-lg bg-transparent border border-primary-600 px-2 md:px-7 md:py-3 py-2 text-[9px] md:text-[14px] font-medium text-white hover:text-black hover:bg-primary-500 hover:font-semibold shadow"
+            href="/" >
             Get in Touch
           </a>
 
           
         </div>
 
-        <div className="block md:hidden">
-          <button className="rounded bg-green-200 p-2 text-gray-600 transition hover:text-gray-600/75">
+        <div className="block lg:hidden ">
+          <button className="rounded bg-primary-500 p-2 md:p-3 text-white text-3xl transition ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"

@@ -4,10 +4,10 @@ import React from 'react'
 const SucessStory = () => {
   return (
 
-    <section className='pt-10 relative '  >
-      <div className='w-[50%] mb-8 '>
-        <h1 class="mb-4 text-3xl w-[600px] font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"> Success Stories From <span class="text-primary-500">Our Clients </span> </h1>
-        <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Dive into the firsthand experiences of clients who entrusted us with their design needs. Witness the transformative power of our innovative solutions in elevating brands and driving business growth.</p>
+    <section className='pt-6 md:pt-10 lg:pt-14 relative '  >
+      <div className='lg:w-[50%] mb-8 '>
+        <h1 class="mb-4 text-3xl md:w-[600px] font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"> Success Stories From <span class="text-primary-500">Our Clients </span> </h1>
+        <p class="md:text-lg text-sm font-normal md:w-[90%] lg:w-[100%] text-gray-500 lg:text-xl dark:text-gray-400">Dive into the firsthand experiences of clients who entrusted us with their design needs. Witness the transformative power of our innovative solutions in elevating brands and driving business growth.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 z-10">

@@ -13,20 +13,20 @@ import Footer from "./_components/Footer";
 export default function Home() {
 
   return (
-    <section className=" h-full">
-      <div id="black-bg" className="px-20 pb-20 bg-transparent bg-black">
+    <section className="overflow-hidden pb-16">
+      <div id="black-bg" className="px-5 md:px-10 lg:px-20  bg-transparent bg-black">
         <Header />
         <Hero />
       </div>
-      <div className="px-20 pb-20 mt-28">
+      <div className="mt-20 lg:mt-0 px-5 md:px-10 lg:px-20  md:pb-10 ">
         <OurApproach />
         <OurServices />
         <Progress />
       </div>
-      <div className="px-0 pb-20">
+      <div className="py-10">
         <CaseStudy />
       </div>
-      <div className="px-20 pb-20">
+      <div className="px-5 md:px-10 lg:px-20">
         <SucessStory />
         <Faq />
         <LetsConnect />
